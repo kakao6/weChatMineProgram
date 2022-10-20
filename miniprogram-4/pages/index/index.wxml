@@ -1,0 +1,12 @@
+<!-- <my-Test3></my-Test3> -->
+<view>父组件中，count的值:{{count}}</view>
+<my-Test5 count="{{count}}" bind:sync = "syncCount" class="customA" id="ca"></my-Test5>
+<button bindtap="getChild">获取子组件的实例对象</button>
+<button class="hello" type = "primary" bindtap="getInfo">hello</button>
+<button class="hello" type = "danger">hello</button>
+<view>{{numaA}}+{{numB}}={{sum}}</view>
+<van-button type="primary" bindtap="btnHander1" data-step="{{1}}">numA+1</van-button>
+<van-button type= "danger" bindtap="btnHander2" data-step="{{-1}}">numA-1</van-button>
+
+<view>-----------</view>
+<my-numbers></my-numbers>

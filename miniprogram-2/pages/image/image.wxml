@@ -1,0 +1,4 @@
+<!--pages/image/image.wxml-->
+<text>pages/image/image.wxml</text>
+<image></image>
+<image src=""  mode="widthFix"></image>

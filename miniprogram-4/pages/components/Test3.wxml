@@ -1,0 +1,6 @@
+<!--pages/components/Test3.wxml-->
+<view style="background-color:rgb({{fullcolor}})" class = "colorBox" >颜色值:{{fullcolor}} </view>
+<button size="mini" type="default" bindtap="changeR">R</button>
+<button size="mini" type="primary" bindtap="changeG">G</button>
+<button size="mini" type="warn" bindtap="changeB">B</button>
+<!-- <view>{{rgb.r}},{{rgb.g}},{{rgb.b}}</view> -->

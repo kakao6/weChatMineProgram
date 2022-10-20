@@ -1,0 +1,12 @@
+<!--pages/swiper/swiper.wxml-->
+<swiper class="swiper-container" indicator-dots indicator-color="white" indicator-active-color="gray" autoplay interval="3000" circular>
+<swiper-item>
+<view class="item">A</view>
+</swiper-item>
+<swiper-item>
+  <view class="item">B</view>
+</swiper-item>
+<swiper-item>
+  <view class="item">C</view>
+</swiper-item>
+</swiper>

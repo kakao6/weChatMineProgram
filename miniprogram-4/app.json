@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents":{
+    "my-Test1":"/pages/components/Test",
+    "my-Test3":"/pages/components/Test3",
+    "my-Test5":"/pages/components/Test5",
+    "van-button":"@vant/weapp/button/index",
+    "my-numbers":"./pages/numbers/numbers"
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

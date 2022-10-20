@@ -1,0 +1,17 @@
+<!--pages/wxfor/wxfor.wxml-->
+<text>pages/wxfor/wxfor.wxml</text>
+<view wx:if="{{arr}}" class="username">
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+  <view >{{arr}}</view>
+</view>
+

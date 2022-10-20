@@ -1,0 +1,4 @@
+<!--pages/components/Test5.wxml-->
+<!-- <text>pages/components/Test5.wxml</text> -->
+<view>子组件的值:{{count}}</view>
+<button bindtap="addCount">count+1</button>

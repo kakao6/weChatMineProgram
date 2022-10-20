@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/contact/contact",
+    "pages/message/message",
+    "pages/shoplist/shoplist",
+    "utils/tools.wxs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "本地生活",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/tab_transaction_normal@3x.png",
+        "selectedIconPath": "/images/tab_transaction_selected@3x.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "images/tabbarActivityNormal@3x.png",
+        "selectedIconPath": "images/tabbarActivitySelected@3x.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们",
+        "iconPath": "images/tabbarVipNormal@3x.png",
+        "selectedIconPath": "images/tabbarVipSelected@3x.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "my-Test1":"/pages/components/Test/Test",
+    "my-Test2":"/pages/components/Test2/Test2",
+    "van-button":"@vant/weapp/button/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

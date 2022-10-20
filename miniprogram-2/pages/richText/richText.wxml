@@ -1,0 +1,8 @@
+<!--pages/richText/richText.wxml-->
+<view>
+  手机号支持长按选中效果
+  <text selectable>13146887186</text>
+</view>
+
+<rich-text nodes="<h1 style = 'color:red'>标题<h1>"></rich-text>
+

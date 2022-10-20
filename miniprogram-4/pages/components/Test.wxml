@@ -1,0 +1,5 @@
+<!--pages/components/Test.wxml-->
+<text>pages/components/Test.wxml2</text>
+<view>{{n1}}+{{n2}} = {{sum}}</view>
+<button bindtap = "bindTap1">n1+1</button>
+<button bindtap = "bindTap2">n2+1</button>

@@ -1,0 +1,11 @@
+<!--pages/btnTap/btnTap.wxml-->
+<view>
+<button type="primary" bindtap="btnTapHander">
+  按钮
+</button>
+<button type="primary" bindtap="countChange">
+  {{count}}
+</button>
+<button type="primary" bindtap="btnTap2" data-info="{{2}}">{{count}}</button>
+<input value = "{{msg}}" bindinput="inputHander" ></input>
+</view>

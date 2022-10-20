@@ -1,0 +1,11 @@
+<!--pages/wxif/wxif.wxml-->
+<text>pages/wxif/wxif.wxml</text>
+<view wx:if="{{type === 1}}">男</view>
+<view wx:elif="{{type == 2}}">女</view>
+<view wx:else>保密</view>
+
+<block wx:if="{{true}}">
+<view></view>
+<view></view>
+
+</block>

@@ -1,0 +1,4 @@
+<!--pages/message/message.wxml-->
+<text class="g-red-text">pages/message/message.wxml</text>
+
+<my-Test1 max="9"></my-Test1>

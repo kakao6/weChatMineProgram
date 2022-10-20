@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/wxfor/wxfor",
+    "pages/test/test",
+    "pages/wxif/wxif",
+    "pages/btnTap/btnTap",
+    "pages/index/index",
+    "pages/image/image",
+    "pages/button/button",
+    "pages/richText/richText",
+    "pages/swiper/swiper",
+    "pages/list/list",
+    "pages/logs/logs"
+     
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "黑马程序员",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor":"#efefef",
+    "backgroundTextStyle":"dark",
+    "onReachBottomDistance":200
+  },
+  "tabBar":{
+   "list":[{
+       "pagePath":"pages/wxfor/wxfor",
+       "text":"textfor"
+   },
+   {
+    "pagePath":"pages/btnTap/btnTap",
+    "text":"button"
+   }]
+
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
